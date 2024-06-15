@@ -1,0 +1,355 @@
+/* Resetear estilos y establecer fuentes */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado con la barra de navegación */
+#nav-principal {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imagen-logo {
+    height: 50px; /* Ajustar según el tamaño real del logo */
+}
+
+/* Estilo para el contenido principal */
+.cuerpo {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.cuerpo > div {
+    flex: 1;
+}
+
+.cuerpo h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cuerpo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuerpo p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilos para la barra de navegación */
+#nav-principal {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imagen-logo {
+    height: 50px;
+    /* Ajustar según el tamaño real del logo */
+}
+
+/* Estilos para la sección "Nosotros" */
+.nosotros {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-nosotros img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.nosotros-text {
+    max-width: 600px;
+}
+
+.nosotros-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nosotros-text h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.nosotros-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilos para la barra de navegación */
+#nav-principal {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imagen-logo {
+    height: 50px; /* Ajustar según el tamaño real del logo */
+}
+
+/* Estilos para la sección "Nuestros Clientes" */
+.nuestros-clientes {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.clientes-text {
+    max-width: 600px;
+}
+
+.clientes-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clientes-text h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.clientes-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.imagen-clientes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* styles.css */
+
+/* Estilo para el encabezado h1 */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Reset de estilos básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+#nav-principal {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+#navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para las secciones de información */
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info div {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info div img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.info div h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.info div p {
+    font-size: 18px;
+    color: #666;
+}
+
